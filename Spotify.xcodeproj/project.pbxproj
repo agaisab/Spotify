@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		E200EE422611C25D00BEE04C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE412611C25D00BEE04C /* AppDelegate.swift */; };
 		E200EE442611C25D00BEE04C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE432611C25D00BEE04C /* SceneDelegate.swift */; };
-		E200EE462611C25D00BEE04C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE452611C25D00BEE04C /* ViewController.swift */; };
-		E200EE492611C25D00BEE04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E200EE472611C25D00BEE04C /* Main.storyboard */; };
+		E200EE462611C25D00BEE04C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE452611C25D00BEE04C /* HomeViewController.swift */; };
 		E200EE4B2611C25E00BEE04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E200EE4A2611C25E00BEE04C /* Assets.xcassets */; };
 		E200EE4E2611C25E00BEE04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E200EE4C2611C25E00BEE04C /* LaunchScreen.storyboard */; };
+		E200EE642611CA9D00BEE04C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE632611CA9D00BEE04C /* TabBarViewController.swift */; };
+		E200EE682611CACD00BEE04C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE672611CACD00BEE04C /* SearchViewController.swift */; };
+		E200EE6B2611CAE200BEE04C /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE6A2611CAE200BEE04C /* LibraryViewController.swift */; };
+		E200EE702611CB1700BEE04C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE6F2611CB1700BEE04C /* AuthViewController.swift */; };
+		E200EE732611CB2600BEE04C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE722611CB2600BEE04C /* WelcomeViewController.swift */; };
+		E200EE762611CB3200BEE04C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE752611CB3200BEE04C /* SettingsViewController.swift */; };
+		E200EE792611CB4600BEE04C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE782611CB4600BEE04C /* ProfileViewController.swift */; };
+		E200EE7C2611CB5200BEE04C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE7B2611CB5200BEE04C /* PlayerViewController.swift */; };
+		E200EE7F2611CB6200BEE04C /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE7E2611CB6200BEE04C /* PlaylistViewController.swift */; };
+		E200EE822611CB6F00BEE04C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE812611CB6F00BEE04C /* SearchResultViewController.swift */; };
+		E200EE852611CB9E00BEE04C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE842611CB9E00BEE04C /* AuthManager.swift */; };
+		E200EE882611CBB300BEE04C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE872611CBB300BEE04C /* APICaller.swift */; };
+		E200EE8B2611CBC800BEE04C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE8A2611CBC800BEE04C /* HapticsManager.swift */; };
+		E200EE8E2611CBE100BEE04C /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE8D2611CBE100BEE04C /* Playlist.swift */; };
+		E200EE912611CBED00BEE04C /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE902611CBED00BEE04C /* AudioTrack.swift */; };
+		E200EE942611CBF900BEE04C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE932611CBF900BEE04C /* Artist.swift */; };
+		E200EE972611CC0600BEE04C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200EE962611CC0600BEE04C /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E200EE3E2611C25D00BEE04C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E200EE412611C25D00BEE04C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E200EE432611C25D00BEE04C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E200EE452611C25D00BEE04C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E200EE482611C25D00BEE04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E200EE452611C25D00BEE04C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E200EE4A2611C25E00BEE04C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E200EE4D2611C25E00BEE04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E200EE4F2611C25E00BEE04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E200EE632611CA9D00BEE04C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E200EE672611CACD00BEE04C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E200EE6A2611CAE200BEE04C /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		E200EE6F2611CB1700BEE04C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		E200EE722611CB2600BEE04C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E200EE752611CB3200BEE04C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E200EE782611CB4600BEE04C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E200EE7B2611CB5200BEE04C /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		E200EE7E2611CB6200BEE04C /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		E200EE812611CB6F00BEE04C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		E200EE842611CB9E00BEE04C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E200EE872611CBB300BEE04C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		E200EE8A2611CBC800BEE04C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		E200EE8D2611CBE100BEE04C /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		E200EE902611CBED00BEE04C /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		E200EE932611CBF900BEE04C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		E200EE962611CC0600BEE04C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,95 @@
 		E200EE402611C25D00BEE04C /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				E200EE412611C25D00BEE04C /* AppDelegate.swift */,
-				E200EE432611C25D00BEE04C /* SceneDelegate.swift */,
-				E200EE452611C25D00BEE04C /* ViewController.swift */,
-				E200EE472611C25D00BEE04C /* Main.storyboard */,
-				E200EE4A2611C25E00BEE04C /* Assets.xcassets */,
-				E200EE4C2611C25E00BEE04C /* LaunchScreen.storyboard */,
 				E200EE4F2611C25E00BEE04C /* Info.plist */,
+				E200EE5B2611C38F00BEE04C /* Resources */,
+				E200EE5A2611C38600BEE04C /* Managers */,
+				E200EE582611C36F00BEE04C /* ViewModels */,
+				E200EE5D2611C44900BEE04C /* Models */,
+				E200EE592611C37C00BEE04C /* Views */,
+				E200EE572611C36400BEE04C /* Controllers */,
 			);
 			path = Spotify;
+			sourceTree = "<group>";
+		};
+		E200EE572611C36400BEE04C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE6E2611CAF900BEE04C /* Other */,
+				E200EE6D2611CAEB00BEE04C /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E200EE582611C36F00BEE04C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E200EE592611C37C00BEE04C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE4C2611C25E00BEE04C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E200EE5A2611C38600BEE04C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE842611CB9E00BEE04C /* AuthManager.swift */,
+				E200EE872611CBB300BEE04C /* APICaller.swift */,
+				E200EE8A2611CBC800BEE04C /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E200EE5B2611C38F00BEE04C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE4A2611C25E00BEE04C /* Assets.xcassets */,
+				E200EE412611C25D00BEE04C /* AppDelegate.swift */,
+				E200EE432611C25D00BEE04C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E200EE5D2611C44900BEE04C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE8D2611CBE100BEE04C /* Playlist.swift */,
+				E200EE902611CBED00BEE04C /* AudioTrack.swift */,
+				E200EE932611CBF900BEE04C /* Artist.swift */,
+				E200EE962611CC0600BEE04C /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E200EE6D2611CAEB00BEE04C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE452611C25D00BEE04C /* HomeViewController.swift */,
+				E200EE632611CA9D00BEE04C /* TabBarViewController.swift */,
+				E200EE672611CACD00BEE04C /* SearchViewController.swift */,
+				E200EE6A2611CAE200BEE04C /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E200EE6E2611CAF900BEE04C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E200EE6F2611CB1700BEE04C /* AuthViewController.swift */,
+				E200EE722611CB2600BEE04C /* WelcomeViewController.swift */,
+				E200EE752611CB3200BEE04C /* SettingsViewController.swift */,
+				E200EE782611CB4600BEE04C /* ProfileViewController.swift */,
+				E200EE7B2611CB5200BEE04C /* PlayerViewController.swift */,
+				E200EE7E2611CB6200BEE04C /* PlaylistViewController.swift */,
+				E200EE812611CB6F00BEE04C /* SearchResultViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +238,6 @@
 			files = (
 				E200EE4E2611C25E00BEE04C /* LaunchScreen.storyboard in Resources */,
 				E200EE4B2611C25E00BEE04C /* Assets.xcassets in Resources */,
-				E200EE492611C25D00BEE04C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +248,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E200EE462611C25D00BEE04C /* ViewController.swift in Sources */,
+				E200EE682611CACD00BEE04C /* SearchViewController.swift in Sources */,
+				E200EE8E2611CBE100BEE04C /* Playlist.swift in Sources */,
+				E200EE852611CB9E00BEE04C /* AuthManager.swift in Sources */,
+				E200EE732611CB2600BEE04C /* WelcomeViewController.swift in Sources */,
+				E200EE792611CB4600BEE04C /* ProfileViewController.swift in Sources */,
+				E200EE642611CA9D00BEE04C /* TabBarViewController.swift in Sources */,
+				E200EE462611C25D00BEE04C /* HomeViewController.swift in Sources */,
+				E200EE8B2611CBC800BEE04C /* HapticsManager.swift in Sources */,
+				E200EE912611CBED00BEE04C /* AudioTrack.swift in Sources */,
+				E200EE702611CB1700BEE04C /* AuthViewController.swift in Sources */,
 				E200EE422611C25D00BEE04C /* AppDelegate.swift in Sources */,
+				E200EE6B2611CAE200BEE04C /* LibraryViewController.swift in Sources */,
+				E200EE972611CC0600BEE04C /* UserProfile.swift in Sources */,
+				E200EE7F2611CB6200BEE04C /* PlaylistViewController.swift in Sources */,
+				E200EE942611CBF900BEE04C /* Artist.swift in Sources */,
 				E200EE442611C25D00BEE04C /* SceneDelegate.swift in Sources */,
+				E200EE7C2611CB5200BEE04C /* PlayerViewController.swift in Sources */,
+				E200EE822611CB6F00BEE04C /* SearchResultViewController.swift in Sources */,
+				E200EE882611CBB300BEE04C /* APICaller.swift in Sources */,
+				E200EE762611CB3200BEE04C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E200EE472611C25D00BEE04C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E200EE482611C25D00BEE04C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E200EE4C2611C25E00BEE04C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
